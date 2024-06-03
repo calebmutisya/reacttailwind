@@ -17,10 +17,12 @@ li:hover{
     cursor: pointer;
 }
 
-/* width */
-.w80{
+
+nav{
     width: 80%;
 }
+/* width */
+
 /* height */
 .h64{
     height: 64px;
@@ -68,10 +70,22 @@ li:hover{
 /* Mobile */
 @media (max-width: 480px){
     /* styles */
+    nav{
+        width: 100vw;
+    }
+    .navlinks{
+        display: none;
+    }
 }
 /* Extra small devices */
 @media (min-width:481px) and (max-width: 767px){
     /* styles */
+    nav{
+        width: 100vw;
+    }
+    .navlinks{
+        display: none;
+    }
 }
 /* Small Tablets */
 @media (min-width:768px) and (max-width: 991px){

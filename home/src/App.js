@@ -7,7 +7,7 @@ function App() {
         <div className='h64 centerhorizontally bgwhite'>
           Logo
         </div>
-        <div className='flex'>
+        <div className='navlinks flex'>
           <ul className='flex'>
             <li className='p-x10 bggrey h64 centerhorizontally'>Home</li>
             <li className='p-x10 bggrey h64 centerhorizontally'>Properties</li>
