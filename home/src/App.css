@@ -1,38 +1,91 @@
-.App {
-  text-align: center;
+/* fonts */
+
+
+
+
+/* colours */
+.bgpink{
+    background-color: pink;
+}
+.bgwhite{
+    background-color: #FFF8F6;
+}
+li:hover{
+    background-color: rgb(211, 211, 211);
+    color: white;
+    transition: 0.15s;
+    cursor: pointer;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* width */
+.w80{
+    width: 80%;
+}
+/* height */
+.h64{
+    height: 64px;
+}
+.hfull{
+    height: 100%;
+}
+/* margin */
+.mauto{
+    margin: auto;
+}
+.m-x20{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+/* padding */
+.p-x10{
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* center items */
+.centeritems{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.centerhorizontally{
+    display: flex;
+    align-items: center;
+}
+/* flexbox and grid */
+.flex{
+    display: flex;
+}
+.spacebetween{
+    justify-content: space-between;
+}
+/* button */
+.navbutton{
+    border: none;
+    background-color: transparent;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Mobile */
+@media (max-width: 480px){
+    /* styles */
 }
-
-.App-link {
-  color: #61dafb;
+/* Extra small devices */
+@media (min-width:481px) and (max-width: 767px){
+    /* styles */
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Small Tablets */
+@media (min-width:768px) and (max-width: 991px){
+    /* styles */
+}
+/* Large tablets/laptops */
+@media (min-width:992px) and (max-width: 1199px){
+    /* styles */
+}
+/* Desktops */
+@media (min-width:1200px) and (max-width: 1919px){
+    /* styles */
+}
+/* Extra large screens */
+@media (min-width:1920px){
+    /* styles */
 }
